@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 public class Lists {
     public static final Integer n = 10;
-    public static ArrayList<Integer> ArrayList_1_Million=new ArrayList<>();
-    public static LinkedList<Integer> LinkedList_1_Million=new LinkedList<>();
+    private static ArrayList<Integer> ArrayList_1_Million=new ArrayList<>();
+    private static LinkedList<Integer> LinkedList_1_Million=new LinkedList<>();
     public static void ArrayList_Set() {
         Long startTime = System.currentTimeMillis();
         for ( int i = 0 ; i < ArrayList_1_Million.size() ; i++ )
