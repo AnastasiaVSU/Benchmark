@@ -16,7 +16,7 @@ public class Lists {
         for(int i = 0; i < ArrayList_1_Million.size(); i++)
             ArrayList_1_Million.get(i);
         Long endTime = System.currentTimeMillis();
-        System.out.println("Время взятия элемента ArrayList:" + (endTime - startTime));
+        System.out.println("Время возвращения элемента ArrayList:" + (endTime - startTime));
     }
     public static void ArrayList_Add(){
         Long startTime = System.currentTimeMillis();
@@ -53,7 +53,7 @@ public class Lists {
         for(int i = 0; i < LinkedList_1_Million.size(); i++)
             LinkedList_1_Million.get(i);
         Long endTime = System.currentTimeMillis();
-        System.out.println("Время взятия элемента LinkedList:" + (endTime - startTime));
+        System.out.println("Время возвращения элемента LinkedList:" + (endTime - startTime));
     }
     public static void LinkedList_Add(){
         Long startTime = System.currentTimeMillis();
