@@ -20,7 +20,7 @@ public class Lists {
     }
     public static void ArrayList_Add(){
         Long startTime = System.currentTimeMillis();
-        for ( int i = 0; i < 100000 ; i++ )
+        for ( int i = 0; i < 1000000 ; i++ )
             ArrayList_1_Million.add(i);
         Long endTime = System.currentTimeMillis();
         System.out.println("Время добавления элемента в ArrayList:" + (endTime - startTime));
@@ -28,7 +28,7 @@ public class Lists {
     }
     public static void ArrayList_Add1(){
         Long startTime = System.currentTimeMillis();
-        for ( int i = 0; i < 100000 ; i++ )
+        for ( int i = 0; i < 1000000; i++ )
             ArrayList_1_Million.add(i, n);
         Long endTime = System.currentTimeMillis();
         System.out.println("Время вставки нового элемента в ArrayList:" + (endTime - startTime));
@@ -57,14 +57,14 @@ public class Lists {
     }
     public static void LinkedList_Add(){
         Long startTime = System.currentTimeMillis();
-        for ( int i = 0; i < 100000 ; i++ )
+        for ( int i = 0; i < 1000000 ; i++ )
             LinkedList_1_Million.add(i);
         Long endTime = System.currentTimeMillis();
         System.out.println("Время добавления элемента в LinkedList:" + (endTime - startTime));
     }
     public static void LinkedList_Add1(){
         Long startTime = System.currentTimeMillis();
-        for ( int i = 0; i < 100000 ; i++ )
+        for ( int i = 0; i < 1000000 ; i++ )
             LinkedList_1_Million.add(i);
         Long endTime = System.currentTimeMillis();
         System.out.println("Время вставки нового элемента в LinkedList:" + (endTime - startTime));
